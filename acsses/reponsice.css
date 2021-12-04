@@ -1,0 +1,41 @@
+/* Mobile & Tablet */
+
+@media (max-width: 1023px) {
+  .hide-on-tablet-mobile {
+      display: none;
+  }
+  .slider__content-title{
+    font-size: 40px;
+  }
+  .slider__content-heading{
+    font-size: 70px;
+    line-height: 70px;
+  }
+  .slider__content-text{
+    font-size: 16px;
+    padding-top: 13px;
+  }
+  .header-mc{
+    display: block;
+  }
+
+}
+
+
+
+/* tablet */
+
+@media (min-width: 740px ) and (max-width: 1023px ) {
+  .hide-on-tablet {
+      display: none;
+  }
+}
+
+/* mobile */
+@media (max-width: 739px) {
+  .hide-on-mobile {
+      display: none;
+  }
+ 
+
+} 

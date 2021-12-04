@@ -1,0 +1,45 @@
+:root {
+  --primary-color : #3FD0D4;
+  --white-color : #fff;
+  --text-color : #2E2E2E;
+}
+
+.color-primary {
+  color: #47D2D6 !important;
+}
+
+.color-white {
+  color: #fff !important;
+}
+
+.slider__tab-img{
+  width: 100%;
+}
+
+.color-footer {
+  color: #a9a9a9;
+}
+
+/*? hover Footer */
+
+.hv{
+  transition: color 0.3s ease;
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.hv:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.hv-b{
+  transition: color 0.3s ease;
+  text-decoration: none;
+  color: #000;
+}
+
+.hv-b:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
